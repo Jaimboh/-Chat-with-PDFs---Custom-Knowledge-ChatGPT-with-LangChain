@@ -32,7 +32,7 @@ Push your branch to your forked repository.
 
 Create a pull request from your branch to the main repository.
 ## License
-This project can be cloned and free for use it.
+This project can be cloned and free for use.
 ## Acknowledgements
 This project was inspired by the need to extract text from PDF files in a chatbot application.
 
