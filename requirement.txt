@@ -1,0 +1,10 @@
+langchain==0.0.150
+pypdf
+pandas
+matplotlib
+tiktoken
+textract
+transformers
+openai
+faiss-cpu
+streamlit
