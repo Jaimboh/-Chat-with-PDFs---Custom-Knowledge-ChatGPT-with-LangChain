@@ -3,7 +3,7 @@ pypdf
 pandas
 tiktoken
 textract
-transformers
 openai
 faiss-cpu
 streamlit
+transformers
