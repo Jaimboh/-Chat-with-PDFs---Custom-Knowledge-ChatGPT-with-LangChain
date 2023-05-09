@@ -21,11 +21,14 @@ st.title("Document Query")
 uploaded_file = st.file_uploader("Choose a file")
 
 if uploaded_file is not None:
-    doc = textract.process(uploaded_file)
+    with open("uploaded_file.pdf", "wb") as f:
+        f.write(uploaded_file.getbuffer())
+    doc = textract.process("uploaded_file.pdf")
     with open('uploaded_file.txt', 'w') as f:
         f.write(doc.decode('utf-8'))
     with open('uploaded_file.txt', 'r') as f:
         text = f.read()
+
 
     query = st.text_input("Enter your query")
 
